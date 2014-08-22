@@ -1,0 +1,21 @@
+{
+    "name": "ksenzee/browserstack-screenshots-php",
+    "type": "library",
+    "description": "A PHP client for the Browserstack Screenshots API",
+    "keywords": ["browserstack", "screenshots"],
+    "homepage": "https://github.com/ksenzee/browserstack-screenshots-php",
+    "license": ["MIT", "GPL-2.0+"],
+    "authors": [
+        {
+          "name": "Katherine Senzee",
+          "homepage": "https://github.com/ksenzee"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "guzzle/guzzle": "~3.9"
+    },
+    "autoload": {
+        "psr-0": {"BrowserstackScreenshots": "lib/"}
+    }
+}
